@@ -27,7 +27,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <FormikUserForm/>
         <h1>Users</h1>
         <UserData
