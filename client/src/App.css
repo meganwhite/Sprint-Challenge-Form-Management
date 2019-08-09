@@ -83,7 +83,7 @@ label {
 
 button {
   max-width: 150px;
-  margin: 32px 0;
+  margin: 32px 0 !important;
   padding: 12px 20px;
   border-style: none;
   border-radius: 5px;
