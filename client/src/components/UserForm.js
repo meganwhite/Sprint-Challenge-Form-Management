@@ -15,7 +15,6 @@ const UserForm = ({ errors, touched, values, handleSubmit, status }) => {
         }, [status]);
   
     return (
-        <div className = 'container'>
             <div className="user-form">
                         <h1>Create an Account</h1>
                         <Form>
@@ -31,18 +30,6 @@ const UserForm = ({ errors, touched, values, handleSubmit, status }) => {
                         </Form>
                     </div>
 
-            <div className='user-list'>
-                {users.map(user => (
-                        <div className = "ui raised cards" key={user.username}>
-                            <div className="card">
-                                <div className="content">
-                                    <div className="header">{user.username}</div>
-                                </div>
-                            </div>
-                        </div>
-                ))}
-            </div>
-        </div>
     );
   };
   
